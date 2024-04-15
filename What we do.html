@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Petly</title>
+    <style>
+        body 
+		{
+            background-color: lightyellow;
+            font-family: Berlin Sans FB;
+            color: brown;
+            margin: 0;
+            padding: 0;
+        }
+        header 
+		{
+            background-color:lightyellow ;
+            color: lightorange;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 
+		{
+            margin: 0;
+        }
+        nav 
+		{
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a 
+		{
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover 
+		{
+            text-decoration: underline;
+			 }
+         section 
+		{
+            padding: 20px;
+            text-align: center;
+        }
+        img 
+		{
+            max-width: 40%;
+            height: auto;
+        }
+        footer 
+		{
+            background-color:black;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+		.back-btn, .next-btn {
+            background-color: orange;
+            color: white;
+            border: 2px solid black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .back-btn:hover, .next-btn:hover {
+            background-color: black;
+            color: white;
+        }
+        .back-btn a, .next-btn a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+ <header>
+        
+    <nav>
+        <a href=" ">Home</a>
+        <a href="About.html">About</a>
+		<a href="Log in.html">Log in</a>
+        <a href="What we do.html">What we do</a>
+        <a href="Contact us.html">Contact us</a>
+		
+    </nav>
+    <div class="container">
+        <h1>What We Do at Petly</h1>
+        <p>Petly Animal Shelter is dedicated to rescuing and rehoming animals in need. Here are some of the things we do:</p>
+		<section>
+				    <img src="C:\Users\dunik\OneDrive\Desktop\5456-webdesign\VIER PFOTEN_2020-03-30_062-1920x1329.jpg" alt="Animal Shelter">
+				</section>
+        <ol>
+            <li><b>Rescue :</b> We rescue animals from shelters, streets, and other situations where they are at risk.</li>
+            <li><b>Rehabilitation :</b> We provide medical care, training, and socialization to help animals recover from their past experiences.</li>
+            <li><b>Rehoming :</b> We find loving forever homes for our rescued animals through adoption events, online profiles, and partnerships with other organizations.</li>
+            <li><b>Education :</b> We educate the community about responsible pet ownership, animal welfare issues, and the importance of spaying and neutering.</li>
+            <li><b>Advocacy :</b> We advocate for animal rights and work to promote laws and policies that protect animals from cruelty and neglect.</li>
+        </ol>
+        <p>At Petly, we believe that every animal deserves a second chance and a loving home. Join us in our mission to make the world a better place for animals!</p>
+		 <div>
+    <button class="back-btn" onclick="window.history.back()">Back</button>
+    <button class="next-btn" onclick="window.location.href='Contact us.html'">Next</button>
+</div>
+    </div>
+	<footer>
+        &copy; 2024 Animal Shelter. All rights reserved.
+    </footer>
+</body>
+</html>
+
